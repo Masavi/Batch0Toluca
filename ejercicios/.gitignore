@@ -1,0 +1,2 @@
+# Pido a Github que ignore todo lo que contenga la carpeta node_modules
+node_modules/
