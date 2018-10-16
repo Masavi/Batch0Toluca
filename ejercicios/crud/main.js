@@ -96,7 +96,7 @@ function deleteAuthor(id) {
 //   .catch(error =>console.log(error))
 
 // Anidar Promesas...
-createAuthor(...)
+/* createAuthor(...)
     .then(autorCreado => { 
         updateAuthor(autorCreado.id, ...)
             .then( autorActualizado => {
@@ -104,10 +104,10 @@ createAuthor(...)
                     .then( autorEliminado => console.log(autorEliminado));
             })
     })
-    .catch( error => console.log(error));
+    .catch( error => console.log(error)); */
 
 // Encadenar Promesas...
-createAuthor(...)
+/* createAuthor(...)
     .then( autorCreado => {
         return updateAuthor(autorCreado.id, ...)})
     .then( autorActualizado => {
@@ -115,7 +115,7 @@ createAuthor(...)
     .then( autorEliminado => {
         console.log(autorEliminado);})
     .catch( error => console.log(error));
-
+ */
 
 /* updateAuthor(...)
     .then(autorActualizado => console.log(autorActualizado))
