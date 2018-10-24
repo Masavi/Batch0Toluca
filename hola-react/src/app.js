@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import HolaMundo from './components/HolaMundo.jsx';
+import AdministrarContadores from './components/AdministrarContadores';
 
 class App extends Component {
     render() { 
         return (
             <div>
-                <HolaMundo />
+                <AdministrarContadores />
             </div> 
         );
     }
