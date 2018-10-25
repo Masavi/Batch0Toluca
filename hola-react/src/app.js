@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import AdministrarContadores from './components/AdministrarContadores';
+import AdministrarTarjetas from './components/AdministrarTarjetas';
 
 class App extends Component {
     render() { 
         return (
             <div>
-                <AdministrarContadores />
+                <AdministrarTarjetas />
             </div> 
         );
     }
