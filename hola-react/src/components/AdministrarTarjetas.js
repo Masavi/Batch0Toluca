@@ -21,7 +21,7 @@ class AdministrarTarjetas extends Component {
     componentDidMount(){
         axios.get('https://pokeapi.co/api/v2/pokemon/')
             .then( response => {
-                for (let i=0; i < 150; i++){
+                for (let i=0; i < 10; i++){
                     
                     this.peticionPokemon(response.data.results[i].url)
                         .then( response => {
